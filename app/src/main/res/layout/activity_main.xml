@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title_default"/>
+
+    <RadioGroup
+        android:id="@+id/main_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true">
+        <RadioButton
+            android:id="@+id/main_rbRecharge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/myRadioButto"
+            android:layout_weight="1"
+            android:text="@string/recharge"/>
+        <RadioButton
+            android:id="@+id/main_rbOrder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/myRadioButto"
+            android:layout_weight="1"
+            android:text="@string/order"/>
+        <RadioButton
+            android:id="@+id/main_rbMine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/myRadioButto"
+            android:layout_weight="1"
+            android:text="@string/mine"/>
+
+    </RadioGroup>
+
+    <com.wn.quickrechatge.views.MyViewPager
+        android:id="@+id/main_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:layout_above="@id/main_rg"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="tvLeftText" format="string" localization="suggested" />
+    <attr name="tvRightText" format="string" localization="suggested" />
+    <attr name="showivRight" format="boolean" />
+    <attr name="showtvRight" format="boolean" />
+    <attr name="showivLeft" format="boolean" />
+    <attr name="ivLeftDrawable" format="reference" />
+    <attr name="showTopLine" format="boolean" />
+    <attr name="showBottomLine" format="boolean" />
+    <attr name="editable" format="boolean" />
+    <attr name="isEnd" format="boolean" />
+    <attr name="title" format="string" localization="suggested" />
+    <attr name="tvRightHint" format="string" localization="suggested" />
+    <attr name="rightTextColor" format="color" />
+
+    <!-- 自定义圆形imageview -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+
+    <!-- 自定义菜单项1 -->
+    <declare-styleable name="MenuItem1">
+        <attr name="tvLeftText" />
+        <attr name="tvRightText" />
+        <attr name="showivRight" />
+        <attr name="showtvRight" />
+        <attr name="showivLeft" />
+        <attr name="ivLeftDrawable" />
+    </declare-styleable>
+</resources>

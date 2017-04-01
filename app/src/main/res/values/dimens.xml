@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="dialog_title_textsize">16sp</dimen>
+
+    <dimen name="title_height">50dp</dimen>
+    <dimen name="default_padding5">5dp</dimen>
+    <dimen name="margin_left">16dp</dimen>
+    <dimen name="text_size_default">18sp</dimen>
+    <dimen name="default_padding">10dp</dimen>
+    <dimen name="default_padding15">15dp</dimen>
+    <dimen name="default_padding20">20dp</dimen>
+    <dimen name="default_padding25">25dp</dimen>
+    <dimen name="default_padding30">30dp</dimen>
+    <dimen name="default_padding40">40dp</dimen>
+    <dimen name="default_padding50">50dp</dimen>
+    <dimen name="default_padding60">60dp</dimen>
+    <dimen name="default_padding70">70dp</dimen>
+    <dimen name="default_lrmargin">16dp</dimen>
+    <dimen name="default_headwidth">70dp</dimen>
+    <dimen name="default_margin">10dp</dimen>
+
+    <dimen name="default_textsize">15sp</dimen>
+    <dimen name="default_textsize12">12sp</dimen>
+    <dimen name="default_textsize14">14sp</dimen>
+    <dimen name="default_textsize16">16sp</dimen>
+    <dimen name="default_textsize18">18sp</dimen>
+    <dimen name="default_textsize20">20sp</dimen>
+    <dimen name="dialog_min_width">500dp</dimen>
+</resources>

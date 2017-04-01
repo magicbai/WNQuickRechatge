@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/default_bgcolor"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/order_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/head"/>
+        <TextView
+            android:id="@+id/order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_mainstyle12"
+            android:text="待支付"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/default_padding20"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/order_iv"
+            android:layout_toLeftOf="@id/order_status"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_padding"
+            android:layout_marginRight="@dimen/default_padding">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_mainstyle"
+                android:text="订单编号 88888"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_mainstyle"
+                android:layout_marginTop="@dimen/default_padding5"
+                android:text="深圳市南山区"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_mainstyle12"
+                android:layout_marginTop="@dimen/default_padding5"
+                android:text="2017.2.27"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding"
+        android:background="@color/white"
+        android:layout_marginTop="2dp">
+        <TextView
+            android:id="@+id/order_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/text_mainstyle12"
+            android:text="预付款："/>
+        <TextView
+            android:id="@+id/order_tvMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/main_color_red"
+            android:textSize="14sp"
+            android:layout_toRightOf="@id/order_tv"
+            android:layout_marginLeft="@dimen/default_padding"
+            android:text="￥200"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            style="@style/ButtonStyle_small"
+            android:text="支付订单"/>
+    </RelativeLayout>
+
+</LinearLayout>

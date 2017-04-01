@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:background="#FFF"
+    android:minWidth="@dimen/dialog_min_width" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="标题栏"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:textColor="@color/main_color"
+        android:layout_marginLeft="@dimen/default_padding20"
+        android:layout_marginTop="@dimen/default_padding20"
+        android:textSize="@dimen/default_textsize16" />
+
+    <!--  @dimen/dialog_title_bottom_line_height -->
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listview_divider_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/listview_divider_color" />-->
+
+</RelativeLayout>

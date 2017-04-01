@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_padding20"
+        android:paddingLeft="@dimen/default_padding20"
+        android:text="设置日期"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/default_textsize16" />
+
+    <com.frame.myframe.views.MyDatePicker
+        android:id="@+id/dialog_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:spinnersShown="true" />
+
+    <include layout="@layout/dialog_bottom" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="default_bgcolor">#F8F8F8</color>
+    <color name="main_color">#36d863</color>
+    <color name="main_color_red">#ff3b30</color>
+    <color name="colorCC">#CCCCCC</color>
+    <color name="color33">#333333</color>
+    <color name="color66">#666666</color>
+    <color name="color88">#888888</color>
+    <color name="color99">#999999</color>
+    <color name="colorEE">#eeeeee</color>
+    <color name="colord6">#d6d6d6</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="default_color">#F8F8F8</color>
+
+    <color name="main_color_press">#bbff486c</color>
+    <color name="success">#1dee75</color>
+
+    <!--弹框按钮颜色-->
+    <color name="dialog_btncolor">#EAE9E6</color>
+    <color name="dialog_btncolor_press">#cecdcd</color>
+</resources>
